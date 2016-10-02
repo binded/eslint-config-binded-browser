@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-blockai-browser",
+  "version": "1.0.1",
+  "description": "Base ESLint configuration for Blockai JavaScript browser side projects",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockai/eslint-config-blockai-browser.git"
+  },
+  "keywords": [
+    "blockai",
+    "eslint",
+    "eslint-config",
+    "style"
+  ],
+  "author": "Olivier Lalonde <olalonde@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blockai/eslint-config-blockai-browser/issues"
+  },
+  "homepage": "https://github.com/blockai/eslint-config-blockai-browser#readme",
+  "dependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.7.0",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-config-airbnb-base": "^5.0.3",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0"
+  }
+}
